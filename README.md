@@ -1,31 +1,31 @@
-#Music-Controller-Web-App-Tutorial
-The code for Tech With Tim's "Django & React Full Stack Web App Tutorial" series.
+### Music-Controller-App
 
-#Setup Instructions
+## Setup Instructions
 Install Required Python Modules
-pip install -r requirements.txt
-Start Web Server
+```pip install -r requirements.txt```
 
-#To start the web server you need to run the following sequence of commands.
-Inline code: 'cd "music_controller"'
-Next run the django web server.
+# Start Web Server
 
-Inline code: 'py manage.py runserver'
+To start the web server you need to run the following sequence of commands.
+```cd music_controller```
+
+# Next run the django web server.
+
+```py manage.py runserver```
 Install Node.js
 Install Node Modules
 
-First cd into the frontend folder.
+# First cd into the frontend folder.
 
-Inline code: 'cd frontend'
+```cd frontend```
 
-Next install all dependicies.
+# Next install all dependicies.
 
-Inline code: 'npm i'
-Compile the Front-End
+```npm i```
 
-#Run the production compile script
+# Compile the Front-End
 
-Inline code: 'npm run build'
+Run the production compile script
+```npm run build```
 or for development:
-
-Inline code: 'npm run dev'
+```npm run dev```
